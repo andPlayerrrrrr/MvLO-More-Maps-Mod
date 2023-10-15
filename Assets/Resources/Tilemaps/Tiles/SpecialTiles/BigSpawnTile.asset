@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0bd5e7f3fb3f9aa498fede5ed38bd490, type: 3}
+  m_Name: BigSpawnTile
+  m_EditorClassIdentifier: 
+  m_AnimatedSprites:
+  - {fileID: -773834935, guid: 242da84653e80d745a4450b5bfa63a5a, type: 3}
+  - {fileID: -1991338160, guid: 242da84653e80d745a4450b5bfa63a5a, type: 3}
+  - {fileID: 2057042533, guid: 242da84653e80d745a4450b5bfa63a5a, type: 3}
+  - {fileID: 1012660182, guid: 242da84653e80d745a4450b5bfa63a5a, type: 3}
+  - {fileID: -773834935, guid: 242da84653e80d745a4450b5bfa63a5a, type: 3}
+  m_MinSpeed: 8
+  m_MaxSpeed: 8
+  m_AnimationStartTime: 0
+  m_AnimationStartFrame: 0
+  m_TileColliderType: 1
+  particleColor: {r: 0, g: 0.09538102, b: 1, a: 0}
+  breakableBySmallMario: 0
+  breakableByLargeMario: 0
+  breakableByGiantMario: 1
+  breakableByShells: 0
+  breakableByBombs: 0
+  bumpIfNotBroken: 0
+  bumpIfBroken: 0
+  resultTile: Bonus/2x2empty
+  topSpawnOffset: {x: 0.25, y: 0}
+  bottomSpawnOffset: {x: 0.25, y: -0.5}

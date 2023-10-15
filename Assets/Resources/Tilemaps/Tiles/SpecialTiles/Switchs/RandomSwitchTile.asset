@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d168c7dd73ec28f4d9d79c7312fe44d0, type: 3}
+  m_Name: RandomSwitchTile
+  m_EditorClassIdentifier: 
+  m_AnimatedSprites:
+  - {fileID: -437451220, guid: cc1d1b97bb6175d40a17e4cad80b67fc, type: 3}
+  m_MinSpeed: 1
+  m_MaxSpeed: 1
+  m_AnimationStartTime: 0
+  m_AnimationStartFrame: 0
+  m_TileColliderType: 1
+  particleColor: {r: 0, g: 0, b: 0, a: 0}
+  breakableBySmallMario: 0
+  breakableByLargeMario: 0
+  breakableByGiantMario: 0
+  breakableByShells: 0
+  breakableByBombs: 0
+  bumpIfNotBroken: 1
+  bumpIfBroken: 0
+  onlyOne: 0
+  off: 1
+  lockmode: 1
+  nextbrake: 0
+  otherSpawnPointX: 140000001400000014000000
+  otherSpawnPointY: fbfffffffcfffffffdffffff
+  repeatX: 050000000400000003000000
+  repeatY: 010000000100000001000000
+  resultTile:
+  - SpecialTiles/EmptyGrayQuestion
+  - SpecialTiles/EmptyBlueQuestion
+  - SpecialTiles/EmptyYellowQuestion
+  Path: Switchs/
+  breakSound: 1
+  breakParticle: 0
+  breakTileColor:
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  Rates: 46000000140000000a000000

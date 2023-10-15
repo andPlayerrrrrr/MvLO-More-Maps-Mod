@@ -1,0 +1,97 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Resources/Scenes/MainMenu.unity
+    guid: 04dc29cc092387a43aa97e7c82eefd58
+  - enabled: 1
+    path: Assets/Resources/Scenes/Loading.unity
+    guid: 6409d3c7bca161147972aa4b7c811199
+  - enabled: 1
+    path: Assets/Resources/Scenes/Levels/DefaultGrassLevel.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Resources/Scenes/Levels/DefaultBrickLevel.unity
+    guid: eccd61e23b609ef4f97a643aa84d51d5
+  - enabled: 1
+    path: Assets/Resources/Scenes/Levels/DefaultCastle.unity
+    guid: 2c88ad1eb18532241acee4483fed211d
+  - enabled: 1
+    path: Assets/Resources/Scenes/Levels/DefaultPipes.unity
+    guid: 3f5866ca86038b44384372ab3dadfffc
+  - enabled: 1
+    path: Assets/Resources/Scenes/Levels/DefaultSnow.unity
+    guid: 42e7b04a277dea44eab7edc32729f7a5
+  - enabled: 1
+    path: Assets/Resources/Scenes/Levels/CustomJungle.unity
+    guid: de8e2edb54b6b5e489c97578fa670804
+  - enabled: 1
+    path: Assets/Resources/Scenes/Levels/CustomSky.unity
+    guid: addb28d9cb6d8a6498a3b328a6e57f33
+  - enabled: 1
+    path: Assets/Resources/Scenes/Levels/CustomVolcano.unity
+    guid: 48dfbffbd41b62a41a8135ce450497f5
+  - enabled: 1
+    path: Assets/Resources/Scenes/Levels/CustomBonus.unity
+    guid: ce4cf98f31007b44ea19a2fb2ab0924a
+  - enabled: 1
+    path: Assets/Resources/Scenes/Levels/CustomDesert.unity
+    guid: 0a445e83695e8424e9e56da3e5b773e4
+  - enabled: 1
+    path: Assets/Resources/Scenes/Levels/OriginalBrickLevel.unity
+    guid: 2074875b0df85e24fa2f6c6e19edf283
+  - enabled: 1
+    path: Assets/Resources/Scenes/Levels/OriginalCastle.unity
+    guid: 65a6b2d54460bf94ba2b5b7258b96bf5
+  - enabled: 1
+    path: Assets/Resources/Scenes/Levels/OriginalPipeTower.unity
+    guid: 5f023dba93b7c6b49b9f8c99fb8018d5
+  - enabled: 1
+    path: Assets/Resources/Scenes/Levels/OriginalNightlevel.unity
+    guid: 603b1f937f50c3849992dbbf24bcb73d
+  - enabled: 1
+    path: Assets/Resources/Scenes/Levels/OriginalMountainlevel.unity
+    guid: f4b5061b5bc5ea2408851394d6bfd09a
+  - enabled: 1
+    path: Assets/Resources/Scenes/Levels/OriginalBeach.unity
+    guid: 02b74f098bdc6b3469f1330be656882a
+  - enabled: 1
+    path: Assets/Resources/Scenes/Levels/OriginalMushroom.unity
+    guid: d09ccd02182f78448bc71a104d5235b1
+  - enabled: 1
+    path: Assets/Resources/Scenes/Levels/OriginalMountainVolcano.unity
+    guid: 3e3d8671cd01d9849932c3492cf503f2
+  - enabled: 1
+    path: Assets/Resources/Scenes/Levels/OriginalDarkWorld.unity
+    guid: 72e8a66ff8f317f44a7133f41e3215bd
+  - enabled: 1
+    path: Assets/Resources/Scenes/Levels/OriginalSkyCastleLevel.unity
+    guid: 7a8974cdc1576094fbf009ea8a5ad006
+  - enabled: 1
+    path: Assets/Resources/Scenes/Levels/Original Bonus.unity
+    guid: ee30bc0c178894c4da724033e3c8cc6d
+  - enabled: 1
+    path: Assets/Resources/Scenes/Levels/OriginalGoldenCave.unity
+    guid: 511d94d8e8df4fd49a361acb04fe1185
+  - enabled: 1
+    path: Assets/Resources/Scenes/Levels/OriginalNightSky.unity
+    guid: a95c9cd894d86a24bbcf648fe194960a
+  - enabled: 1
+    path: Assets/Resources/Scenes/Levels/OriginalLava.unity
+    guid: 92d184e2ac4ac30438884267136a3087
+  - enabled: 1
+    path: Assets/Resources/Scenes/Levels/OriginalDarkBlueCave.unity
+    guid: d0f995f0b1943844aba5b970f8ed84ae
+  - enabled: 1
+    path: Assets/Resources/Scenes/Levels/OriginalCastle2.unity
+    guid: 8100b5a54cdeb774b80f1d027297c453
+  - enabled: 1
+    path: Assets/Resources/Scenes/Levels/OriginalSpace.unity
+    guid: 9e4024e127c97db46b4ca89dec817d68
+  m_configObjects:
+    com.unity.input.settings: {fileID: 11400000, guid: 49335f30d253220488d2d332ade6e901,
+      type: 2}
