@@ -161,4 +161,4 @@ MonoBehaviour:
   - {fileID: 11400000, guid: ad62e1bba2dd72b4191d6e9cf2bdbdf6, type: 2}
   isBackgroundTile: 0
   iceSkidding: 0
-  footstepSound: 31
+  footstepSound: 93

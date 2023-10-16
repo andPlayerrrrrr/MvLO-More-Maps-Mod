@@ -8,7 +8,6 @@ public class MovePlatform : MonoBehaviour
     private Vector2 initialPosition;
     public float timeX = 1.0f;
     public float timeY = 0f;
-    public bool riders = false;
     private List<GameObject> ride = new List<GameObject>(); //床に乗ってるオブジェクト
     public void Start()
     {
@@ -17,13 +16,25 @@ public class MovePlatform : MonoBehaviour
     public void FixedUpdate()
     {
         transform.position = new Vector2(Mathf.Sin(Time.time) * timeX + initialPosition.x, Mathf.Sin(Time.time) * timeY + initialPosition.y);
-        if(riders == true)
+    }
+    private void OnCollisionEnter2D(Collision2D other)
+    {
+        if (other.gameObject.CompareTag("Player"))
         {
-            foreach (GameObject g in ride)
-            {
-                Vector2 v = g.transform.position;
-                g.transform.position = new Vector3(Mathf.Sin(Time.time) * timeX + v.x, Mathf.Sin(Time.time) * timeY + v.y);   //yの移動は不要////////////
-            }
+            // 触れたobjの親を移動床にする
+            other.transform.SetParent(transform);
+        }
+    }
+    /// <summary>
+    /// 移動床のコライダーがobjから離れた時の処理
+    /// </summary>
+    /// <param name="other"></param>
+    private void OnCollisionExit2D(Collision2D other)
+    {
+        if (other.gameObject.CompareTag("Player"))
+        {
+            // 触れたobjの親をなくす
+            other.transform.SetParent(null);
         }
     }
 }

@@ -120,9 +120,9 @@ MonoBehaviour:
     m_Neighbors: 02000000010000000100000001000000
     m_NeighborPositions:
     - {x: 1, y: 0, z: 0}
-    - {x: -1, y: 0, z: 0}
     - {x: 0, y: 1, z: 0}
     - {x: 0, y: -1, z: 0}
+    - {x: -1, y: 0, z: 0}
     m_RuleTransform: 2
   - m_Id: 5
     m_Sprites:
@@ -183,6 +183,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: a092494c0c6abd5408b06d5261f705c9, type: 2}
   - {fileID: 11400000, guid: 5ae29e77d960df34194aad455b5e5831, type: 2}
   - {fileID: 11400000, guid: ad62e1bba2dd72b4191d6e9cf2bdbdf6, type: 2}
+  - {fileID: 11400000, guid: 0dfe9c97c77b11d4496787b253438776, type: 2}
   isBackgroundTile: 0
   iceSkidding: 0
   footstepSound: 31

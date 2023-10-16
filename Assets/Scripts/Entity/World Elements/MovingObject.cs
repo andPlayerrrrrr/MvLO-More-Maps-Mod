@@ -189,10 +189,10 @@ public void FixedUpdate()
 						{
 							if (PhotonNetwork.IsMasterClient)
 							{
-								int c_random = Random.Range(0, 10);
+								int c_random = Random.Range(0, 6);
 								photonView.RPC("random_cooldowns", RpcTarget.AllBuffered, c_random);
 							}
-							if (c_randoms == 9)
+							if (c_randoms <= 3)
 							{
 								CooldownTime = -1;
 							}

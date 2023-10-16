@@ -2252,6 +2252,11 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 105969562}
     m_Modifications:
+    - target: {fileID: 1599724149089002305, guid: da972f64d20815e4487e3000ae7ce690,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8010249587145537842, guid: da972f64d20815e4487e3000ae7ce690,
         type: 3}
       propertyPath: m_RootOrder
@@ -9149,6 +9154,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Offset.x
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1599724149089002305, guid: da972f64d20815e4487e3000ae7ce690,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1599724149089002305, guid: da972f64d20815e4487e3000ae7ce690,
         type: 3}
