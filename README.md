@@ -6,6 +6,8 @@ Mario vs Luigi online mod
 ## ⏫Future updates
 - V1.4
   - Five new maps will be added
+  - New gimmicks will be added
+  - Web version will be supported
 ## Wiki
 You can view a variety of information.
 https://github.com/andPlayerrrrrr/More-Maps-Mod/wiki
